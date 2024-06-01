@@ -1,0 +1,94 @@
+/* For App.js */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.header a:hover {
+  color: #bbbbbb;
+}
+
+
+/* For ProductListing.js */
+.product-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+
+/* For ProductCard.js */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+}
+
+
+/* For Cart.js */
+.cart {
+  padding: 20px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.order-form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.order-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+/* For CartItem.js */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+
+/* Button styles */
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.btn:hover {
+  background-color: #003f83;
+}
